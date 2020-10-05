@@ -2,6 +2,40 @@ body {
   background-color: black;
   font-size: 16px;
   font-weight: bold;
+  /*   <div class="navbar">
+    <span class="tag">
+      <i></i>
+      <i></i>
+      <i></i>
+    </span>
+    <div class="menucontent">
+      <ul>
+        <li>Home</li>
+        <li>Education</li>
+        <li>Experience</li>
+        <li>Awards And Recognition</li>
+      </ul>
+    </div>
+  </div> */
+}
+
+p {
+  color: white;
+  padding: 40px;
+  word-spacing: 1.2px;
+  letter-spacing: 0.2px;
+  font-size: 20px;
+  text-align: left;
+}
+
+h2 {
+  color: #d4f3ef;
+  text-align: center;
+  font-style: italic;
+}
+
+h3 {
+  color: white;
 }
 
 hr {
@@ -10,4 +44,278 @@ hr {
   border-style: dotted none none;
   border-color: #b2ebf2;
   border-width: 5px;
+}
+
+ul {
+  top: 50%;
+  left: 50%;
+  right: 50;
+  margin: 0 auto 0 170px;
+  padding: 0;
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin: 0 50px;
+  background: rgba(255, 255, 255, .2);
+  border-radius: 50%;
+  color: #000635;
+  transition: 1s;
+}
+
+ul li:hover {
+  background: #fff;
+  box-shadow: 0 0 10px rgba(255, 225, 225, 1),
+    0 0 20px rgba(255, 225, 225, 1),
+    0 0 30px rgba(255, 225, 225, 1),
+    0 0 40px rgba(255, 225, 225, 1);
+}
+
+.lasttext {
+  padding: 0 250px 0 250px;
+}
+
+.lasttext1 {
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #1b6ca8, 0 0 60px #9554b3, 0 0 70px #9554b3;
+  }
+
+  to {
+    text-shadow: 0 0 20px #eeeeee, 0 0 30px #b2ebf2, 0 0 40px #b2ebf2, 0 0 50px #00bcd4, 0 0 60px #00bcd4, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.introimage {
+  padding: 20px 30px 10px 10px;
+}
+
+.navbar {
+  color: white;
+  height: 70px;
+  width: 70px;
+  right: 70px;
+  top: 20px;
+  position: absolute;
+  overflow: hidden;
+  transition: all 0.2s ease;
+  z-index: 999;
+}
+
+.introduction {
+  margin-top: 30px
+}
+
+.severusimage {
+  float: left;
+  width: 25%;
+  transition: transform .5s;
+  margin: 0 20px auto auto;
+}
+
+.severusimage:hover {
+  transform: scale(1.5);
+}
+
+.introbox {
+  width: 60%;
+  margin: 0 auto 100px auto;
+  text-align: left;
+  line-height: 1.3;
+}
+
+.glow {
+  font-size: 70px;
+  color: #ffffff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #1b6ca8, 0 0 60px #9554b3, 0 0 70px #9554b3;
+  }
+
+  to {
+    text-shadow: 0 0 20px #eeeeee, 0 0 30px #b2ebf2, 0 0 40px #b2ebf2, 0 0 50px #00bcd4, 0 0 60px #00bcd4, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.twoimages {
+  padding: 60px 60px 180px 160px;
+}
+
+.thirdimage {
+  margin: 50px 300px 20px 350px;
+  transition: transform .5s;
+  padding: 20px;
+  height: 800px;
+}
+
+.thirdimage:hover {
+  transform: scale(1.5);
+}
+
+.first {
+  padding: 20px 40px 0 0;
+  float: left;
+  margin: 30px;
+}
+
+.second {
+  padding: 20px 40px 0 0;
+  float: right;
+  margin: 30px;
+}
+
+.firstimg {
+  float: left;
+  width: 25%;
+  margin-right: 60px;
+  margin-bottom: 50px;
+  transition: transform .5s;
+}
+
+.firstimg:hover {
+  transform: scale(1.5);
+}
+
+.secondimg {
+  width: 25%;
+  float: right;
+  height: 350px;
+  width: auto;
+  padding-right: 50px;
+  margin-top: 10px;
+  margin-left: 20px;
+  transition: transform .5s;
+}
+
+.secondimg:hover {
+  transform: scale(1.5);
+}
+
+.firstintext {
+  padding-top: 40px;
+}
+
+.secondintext {
+  margin: 600px 0 0 120px;
+}
+
+.final {
+  margin-bottom: 30px;
+}
+
+.listhover {
+  color: white;
+  margin: 50px auto 0 auto;
+}
+
+.login {
+  width: 400px;
+  padding: 60px;
+  position: auto;
+  left: 50%;
+  text-align: center;
+  background: #191919;
+}
+
+.login h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.login input[type="text"], .login input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 1s;
+}
+
+.login input[type="text"]:focus, .login input[type="password"]:focus {
+  width: 280px;
+  border-color: #2ecc71;
+  box-shadow: 0 0 5px #2ecc71;
+}
+
+.login input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 15px 20px 10px;
+  outline: none;
+  color: white;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.loginmain {
+  margin: 50px 0 40px 360px;
+}
+
+.login input[type="submit"]:hover {
+  background: #2ecc71;
+  border: none;
+}
+
+.listhover2 {
+  color: white;
+  margin: 30px auto 60px 125px;
+}
+
+.contact {
+  margin: 20px 100px 50px 200px;
+  letter-spacing: 1px;
+}
+
+.socialmedia {
+  margin-left: 80px;
+}
+
+.LinkedIn {
+  height: 30px;
+  width: 30px;
+}
+
+.instagram {
+  height: 30px;
+  width: 30px;
+}
+
+.twitter {
+  height: 30px;
+  width: 30px;
+}
+
+.trademark {
+  margin: 40px 30px 20px 520px;
+  font-size: 13px;
+  color: #191919;
 }
